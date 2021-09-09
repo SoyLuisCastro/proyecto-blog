@@ -34,20 +34,7 @@ session_start();
                     <a href="index.php">Inicio</a>
                 </li>
 
-                <?php 
-                    $continentes = conseguirContinentes($db);
-                    if(!empty($continentes)):
-  
-                            while($continente = mysqli_fetch_assoc($continentes)) :
-                ?>
-                            <li>
-                                <a href="continente.php?id=<?=$continente['id']?>"><?=$continente['nombre']?></a>
-                            </li>
-
-                <?php 
-                            endwhile; 
-                    endif;
-                ?>
+               
                 <li>
                     <a href="videos/videos.php">videos</a>
                 </li>
