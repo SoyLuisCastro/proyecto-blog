@@ -61,6 +61,7 @@
             </div>
         <?php endif; ?>
         <form action="registro.php" method="POST">
+            <!--registrar datos que se guardarán y se registrán para luego logear-->
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" placeholder="ingrese el nombre" required="required">
             <?php echo isset($_SESSION['errores']) ? mostrarError($_SESSION['errores'], 'nombre') : '' ?>
