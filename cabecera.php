@@ -2,7 +2,7 @@
 session_start();
 ?>
 <?php require_once 'includes/conexion.php'; ?> <!--incluimos la coneccion a cabecera ya anteriormente establecida en la clase anterior-->
-<?php require_once 'includes/helpers.php'; ?>
+
 
 
 <!DOCTYPE html>
