@@ -1,7 +1,7 @@
 <?php 
 session_start();
 ?>
-<?php require_once 'includes/conexion.php'; ?> <!--incluimos la coneccion a cabecera-->
+<?php require_once 'includes/conexion.php'; ?> <!--incluimos la coneccion a cabecera ya anteriormente establecida en la clase anterior-->
 <?php require_once 'includes/helpers.php'; ?>
 
 
@@ -23,6 +23,8 @@ session_start();
         <div id="logo">
             <a href="index.php">
                 <a style="background-color:whitesmoke;">Blog Gastronomico</a>
+                <!--creé una cabecera que dijera blog gastronomico ya que se tratará de eso
+                hablaré de gastronomía -->
             </a>
         </div>
 
@@ -54,7 +56,10 @@ session_start();
                     <a href="contactanos/contactanos.php">contactanos</a>
                 </li>
                     
-                 
+                 <!--aquí incluimos las carpetas y los archivos php o scripts ya antes separados 
+                 ya que con tiempo, estuve investigando y creando formas para darle un buen diseño y contenido en 
+                 el blog
+                 --> 
             </ul>
         </nav>
 
